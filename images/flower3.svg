@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70" height="70" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
+  <!-- Petale -->
+  <path d="M35 10 C 45 15 50 5 50 20 C 60 25 60 40 45 40 C 50 55 25 55 20 40 C 5 45 5 25 20 20 C 10 5 25 5 35 10" fill="#C7CEEA" stroke="#A7B4E0" stroke-width="1.5"/>
+  <!-- Centru -->
+  <circle cx="35" cy="30" r="7" fill="#FFDAC1" stroke="#FFB38A" stroke-width="1"/>
+  <circle cx="35" cy="30" r="3.5" fill="#FFB38A" stroke="#FFB38A" stroke-width="0.5"/>
+</svg>

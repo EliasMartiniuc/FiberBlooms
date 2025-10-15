@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiberBlooms - Flori croșetate manual</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="petal-container"></div>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="Logo (2).png" alt="FiberBlooms Logo">
+            </a>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Acasă</a></li>
+                <li><a href="despre.html">Despre</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-close">
+                <i class="fas fa-times"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="animated-flowers">
+                <div class="flower flower-1"></div>
+                <div class="flower flower-2"></div>
+                <div class="flower flower-3"></div>
+                <div class="flower flower-4"></div>
+                <div class="flower flower-5"></div>
+            </div>
+            <div class="hero-content reveal-element">
+                <h1>FiberBlooms</h1>
+                <p class="tagline">Pentru că florile spun mai multe ᵕ̈</p>
+                <div class="cta-buttons">
+                    <a href="galerie.html" class="btn btn-primary">Vezi Creațiile</a>
+                    <a href="contact.html" class="btn btn-secondary">Contactează-ne</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature reveal-element">
+                <div class="feature-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Făcute cu Dragoste</h3>
+                <p>Fiecare floare este croșetată manual cu atenție și pasiune.</p>
+            </div>
+            <div class="feature reveal-element" data-delay="200">
+                <div class="feature-icon">
+                    <i class="fas fa-truck"></i>
+                </div>
+                <h3>Livrare Națională</h3>
+                <p>Livrăm creațiile noastre în toată România.</p>
+            </div>
+            <div class="feature reveal-element" data-delay="400">
+                <div class="feature-icon">
+                    <i class="fas fa-gift"></i>
+                </div>
+                <h3>Cadouri Unice</h3>
+                <p>Oferă un cadou special care nu se va ofili niciodată.</p>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h2 class="section-title reveal-element">Creații Populare</h2>
+            <div class="products-grid">
+                <div class="product reveal-element">
+                    <div class="product-image placeholder"></div>
+                    <h3>Buchet de Lalele</h3>
+                </div>
+                <div class="product reveal-element" data-delay="200">
+                    <div class="product-image placeholder"></div>
+                    <h3>Trandafiri Delicați</h3>
+                </div>
+                <div class="product reveal-element" data-delay="400">
+                    <div class="product-image placeholder"></div>
+                    <h3>Margarete Vesele</h3>
+                </div>
+            </div>
+            <div class="cta-center reveal-element">
+                <a href="galerie.html" class="btn btn-primary">Vezi Toată Colecția</a>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 class="section-title reveal-element">Ce Spun Clienții Noștri</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial reveal-element">
+                    <p>"Florile primite sunt absolut minunate! Atât de detaliate și frumoase, parcă sunt reale."</p>
+                    <p class="testimonial-author">- Maria D.</p>
+                </div>
+                <div class="testimonial reveal-element" data-delay="200">
+                    <p>"Am comandat un buchet pentru mama mea și a fost încântată. O amintire care va dura pentru totdeauna."</p>
+                    <p class="testimonial-author">- Alexandru P.</p>
+                </div>
+                <div class="testimonial reveal-element" data-delay="400">
+                    <p>"Calitatea și atenția la detalii este remarcabilă. Recomand cu drag!"</p>
+                    <p class="testimonial-author">- Elena M.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="Logo (2).png" alt="FiberBlooms Logo">
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/fiberblooms/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@fiberblooms" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61550923336292" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="footer-nav">
+                <a href="index.html">Acasă</a>
+                <a href="despre.html">Despre</a>
+                <a href="galerie.html">Galerie</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>

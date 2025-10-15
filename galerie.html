@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - FiberBlooms</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="petal-container"></div>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="Logo (2).png" alt="FiberBlooms Logo">
+            </a>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="despre.html">Despre</a></li>
+                <li><a href="galerie.html" class="active">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-close">
+                <i class="fas fa-times"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-intro">
+            <h1 class="reveal-element">Galerie de Creații</h1>
+            <p class="reveal-element">Descoperă colecția noastră de flori croșetate manual, fiecare cu personalitatea și farmecul său unic.</p>
+        </section>
+
+        <section class="gallery-grid">
+            
+            <div class="gallery-container">
+                <!-- Gallery items with placeholder images -->
+                <div class="gallery-item reveal-element" data-category="buchete">
+                    <div class="gallery-image placeholder"></div>
+                    <div class="gallery-overlay">
+                        <h3>Buchet de Primăvară</h3>
+                        <p>Lalele și narcise în nuanțe pastelate</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item reveal-element" data-category="individuale" data-delay="100">
+                    <div class="gallery-image placeholder"></div>
+                    <div class="gallery-overlay">
+                        <h3>Trandafir Roșu</h3>
+                        <p>Trandafir croșetat cu detalii fine</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item reveal-element" data-category="buchete" data-delay="200">
+                    <div class="gallery-image placeholder"></div>
+                    <div class="gallery-overlay">
+                        <h3>Buchet Mixt</h3>
+                        <p>Combinație de flori de câmp</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item reveal-element" data-category="speciale" data-delay="300">
+                    <div class="gallery-image placeholder"></div>
+                    <div class="gallery-overlay">
+                        <h3>Aranjament Festiv</h3>
+                        <p>Creație specială pentru ocazii deosebite</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item reveal-element" data-category="individuale" data-delay="400">
+                    <div class="gallery-image placeholder"></div>
+                    <div class="gallery-overlay">
+                        <h3>Margaretă</h3>
+                        <p>Margaretă croșetată în nuanțe de galben și alb</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item reveal-element" data-category="buchete" data-delay="500">
+                    <div class="gallery-image placeholder"></div>
+                    <div class="gallery-overlay">
+                        <h3>Buchet de Lavandă</h3>
+                        <p>Lavandă croșetată în nuanțe de mov</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item reveal-element" data-category="speciale" data-delay="600">
+                    <div class="gallery-image placeholder"></div>
+                    <div class="gallery-overlay">
+                        <h3>Coroană de Flori</h3>
+                        <p>Coroană decorativă pentru ocazii speciale</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item reveal-element" data-category="individuale" data-delay="700">
+                    <div class="gallery-image placeholder"></div>
+                    <div class="gallery-overlay">
+                        <h3>Crin Imperial</h3>
+                        <p>Crin croșetat cu detalii elegante</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-cta">
+            <div class="cta-content reveal-element">
+                <h2>Ți-a plăcut ce ai văzut?</h2>
+                <p>Contactează-ne pentru a comanda propria ta creație FiberBlooms.</p>
+                <a href="contact.html" class="btn btn-primary">Contactează-ne</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="Logo (2).png" alt="FiberBlooms Logo">
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/fiberblooms/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@fiberblooms" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61550923336292" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="footer-nav">
+                <a href="index.html">Acasă</a>
+                <a href="despre.html">Despre</a>
+                <a href="galerie.html">Galerie</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
