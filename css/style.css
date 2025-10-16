@@ -804,6 +804,10 @@ footer {
     
     .menu-toggle {
         display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
     }
     
     .nav-links {
@@ -838,6 +842,10 @@ footer {
     
     .nav-links.active ~ .menu-close {
         display: block;
+    }
+    
+    .menu-toggle.active {
+        display: none;
     }
     
     .nav-links li {
