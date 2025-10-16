@@ -67,13 +67,13 @@ function initPageTransitions() {
                 // Trigger transition
                 transitionElement.classList.add('active');
                 
-                // Add rotation animation
-                transitionElement.style.animation = 'rotateFlower 0.8s ease-in-out forwards';
+                // Add rotation animation - optimizat pentru performanță
+                transitionElement.style.animation = 'rotateFlower 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) forwards';
                 
-                // Navigate after transition
+                // Navigate after transition - redus timpul pentru a elimina lag-ul
                 setTimeout(() => {
                     window.location.href = href;
-                }, 600);
+                }, 400);
             });
         }
     });

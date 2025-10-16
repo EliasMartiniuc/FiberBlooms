@@ -1,0 +1,6 @@
+{"projectId":"prj_FKCD6yxIahhVlfVlsI9LgiKbBTuG","orgId":"team_Ti3rbN6PgAYCfvciIzex1rg6","projectName":"fiberblooms"}
+{
+  "rewrites": [
+    { "source": "/acasa", "destination": "/index.html" }
+  ]
+}
