@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/acasa", "destination": "/index.html" },
+    { "source": "/despre", "destination": "/despre.html" },
+    { "source": "/galerie", "destination": "/galerie.html" },
+    { "source": "/contact", "destination": "/contact.html" }
+  ]
+}
